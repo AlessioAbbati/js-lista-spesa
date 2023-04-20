@@ -38,7 +38,7 @@ const inputAdd = document.querySelector("#input-add");
 btnAdd.addEventListener("click",
    function () {
 	  // prendo il valore dell'input
-	  const addText = inputAdd.value.trin();
+	  const addText = inputAdd.value.trim();
     
 	  if (addText != "") {
          console.log(addText);
